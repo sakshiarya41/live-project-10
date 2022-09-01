@@ -185,5 +185,146 @@ body{
         width: 15px;
     }
 
+
+    @media screen and (max-width: 480px){
+        
+        header{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        .logo{
+            width:70px;
+        }
+
+        .nav{
+            height:7vh;
+            width:300px;
+            margin-left: 10px;
+            border-bottom: 1px solid white;
+        }
+
+        #nav-items{
+            position: relative;
+            top:20px;
+        }
+    
+        a.nav-item{
+            padding: 0px 15px 0px 0px;
+            font-size: 10px;
+
+        }
+    
+        .right-header{
+            position: relative;
+            left:50%;
+        }
+    
+        .right-header img{
+            position: relative;
+            left: 40%;
+            top:-45px;
+            height:20px;
+            width:20px;
+        }
+    
+        .right-header h2{
+            position: relative;
+            left: 70%;
+            top:-70px;
+            font-size:8px;
+        }
+       /* ................navigation ends....................... */
+
+        .left-section{
+            margin-top:30px;
+            margin-left:10px;
+            width:300px;
+        }
+    
+        .heading{
+            font-size:30px;
+        }
+    
+        .left-section button{
+            margin-top:10px;
+            padding: 10px 10px;
+            font-size: 15px;
+        }
+         /* ................content section ends....................... */
+
+        .img-section{
+            position: relative;
+            left:50%;
+            top:-100px;
+        }
+
+        .img-section div h3{
+            font-size: 8px;
+            margin-top: 30px;
+        }
+    
+
+         /* ................bulb-section....................... */
+
+         .class-bulb{
+            position: relative;
+            width:150px;
+            height:120px;
+            margin-top: 300px;
+            left: -180px;
+        }
+
+         .bulb{
+            position: absolute;
+            top:8px;
+            margin-left: -70px;
+        }
+
+        .dot2{
+            position: absolute;
+            top:52px;
+            margin-left:-130px;
+        }
+
+        .class-bulb::after{
+            position: absolute;
+            top:20px;
+            margin-left: -15px;
+            font-size: 60px;
+        }
+    
+
+    /* ................puzzle-section....................... */
+        
+ 
+        .class-puzzle{
+            position: relative;
+            top:100px;
+            left:-450px;
+            width:150px;
+            height:120px;
+            margin-top: 10px;
+        }
+
+        .puzzle:not(.bulb){
+            position: absolute;
+            top:10px;
+            margin-left: 15px;
+        }
+    
+        .class-puzzle::after{
+            position: absolute;
+            top:108px;
+            font-size: 60px;
+        }
+ 
+        .dot1{
+            position: absolute;
+            top:170px;
+            left:75px;
+        }
+    
+    }
+
    
 
